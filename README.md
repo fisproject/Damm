@@ -6,9 +6,9 @@ A Go implementation of the Damm algorithm, a check digit algorithm created by H.
 
 ## Example
 ```go
-d, err := Append("54994384990") // "549943849904"
+d, err := damm.Append("54994384990") // "549943849904"
 
-result, err := Verify(d) // true
+result, err := damm.Verify(d) // true
 ```
 
 ## Licence
