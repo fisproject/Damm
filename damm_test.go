@@ -29,7 +29,7 @@ func TestAppend(t *testing.T) {
 		}
 
 		if result != c.expected {
-			t.Errorf("input is expected %v, but %v", c.input, c.expected, result)
+			t.Errorf("%v is expected %v, but %v", c.input, c.expected, result)
 		}
 	}
 }
